@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+target 'EasyPosterMobile' do
+	pod 'AFNetworking', '2.6.3'
+	pod 'EasyPost', :git => 'https://github.com/sdrpa/easypost-objective-c'
+end

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>address</key>
+	<dict>
+		<key>city</key>
+		<string>San Francisco</string>
+		<key>country</key>
+		<string>US</string>
+		<key>name</key>
+		<string>Andrew Tribone</string>
+		<key>residential</key>
+		<integer>0</integer>
+		<key>state</key>
+		<string>CA</string>
+		<key>street1</key>
+		<string>480 Fell St</string>
+		<key>street2</key>
+		<string>#3</string>
+		<key>zip</key>
+		<string>94102</string>
+	</dict>
+	<key>is_account_address</key>
+	<integer>0</integer>
+	<key>max_datetime</key>
+	<string>2015-11-13 08:34:21 +0000</string>
+	<key>min_datetime</key>
+	<string>2015-11-13 08:34:21 +0000</string>
+	<key>shipment</key>
+	<dict>
+		<key>buyer_address</key>
+		<dict>
+			<key>city</key>
+			<string>San Francisco</string>
+			<key>company</key>
+			<string>Simpler Postage Inc</string>
+			<key>country</key>
+			<string>US</string>
+			<key>created_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>mode</key>
+			<string>test</string>
+			<key>residential</key>
+			<integer>0</integer>
+			<key>state</key>
+			<string>CA</string>
+			<key>street1</key>
+			<string>164 Townsend Street</string>
+			<key>street2</key>
+			<string>Unit 1</string>
+			<key>updated_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>zip</key>
+			<string>94107</string>
+		</dict>
+		<key>created_at</key>
+		<string>2015-11-13 07:34:19 +0000</string>
+		<key>fees</key>
+		<array/>
+		<key>forms</key>
+		<array/>
+		<key>from_address</key>
+		<dict>
+			<key>city</key>
+			<string>San Francisco</string>
+			<key>country</key>
+			<string>US</string>
+			<key>created_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>mode</key>
+			<string>test</string>
+			<key>name</key>
+			<string>Andrew Tribone</string>
+			<key>residential</key>
+			<integer>0</integer>
+			<key>state</key>
+			<string>CA</string>
+			<key>street1</key>
+			<string>480 Fell St</string>
+			<key>street2</key>
+			<string>#3</string>
+			<key>updated_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>zip</key>
+			<string>94102</string>
+		</dict>
+		<key>is_return</key>
+		<integer>0</integer>
+		<key>itemId</key>
+		<string>shp_3a525ea16182493094d261ba15e42bbc</string>
+		<key>messages</key>
+		<array/>
+		<key>mode</key>
+		<string>test</string>
+		<key>options</key>
+		<dict/>
+		<key>parcel</key>
+		<dict>
+			<key>created_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>height</key>
+			<real>5</real>
+			<key>length</key>
+			<real>8</real>
+			<key>mode</key>
+			<string>test</string>
+			<key>updated_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>weight</key>
+			<real>10</real>
+			<key>width</key>
+			<real>6</real>
+		</dict>
+		<key>rates</key>
+		<array>
+			<dict>
+				<key>carrier</key>
+				<string>USPS</string>
+				<key>carrier_account_id</key>
+				<string>ca_c07c4df425324d96beaa4b85c86e362e</string>
+				<key>created_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+				<key>currency</key>
+				<string>USD</string>
+				<key>itemId</key>
+				<string>rate_407421e09a9f488599e072292b6fbf24</string>
+				<key>list_currency</key>
+				<string>USD</string>
+				<key>list_rate</key>
+				<string>5.70</string>
+				<key>mode</key>
+				<string>test</string>
+				<key>rate</key>
+				<string>5.70</string>
+				<key>service</key>
+				<string>ParcelSelect</string>
+				<key>shipment_id</key>
+				<string>shp_3a525ea16182493094d261ba15e42bbc</string>
+				<key>updated_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+			</dict>
+			<dict>
+				<key>carrier</key>
+				<string>USPS</string>
+				<key>carrier_account_id</key>
+				<string>ca_c07c4df425324d96beaa4b85c86e362e</string>
+				<key>created_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+				<key>currency</key>
+				<string>USD</string>
+				<key>itemId</key>
+				<string>rate_7ea36e7b8d764325b9758651fb59cec9</string>
+				<key>list_currency</key>
+				<string>USD</string>
+				<key>list_rate</key>
+				<string>5.05</string>
+				<key>mode</key>
+				<string>test</string>
+				<key>rate</key>
+				<string>5.05</string>
+				<key>service</key>
+				<string>Priority</string>
+				<key>shipment_id</key>
+				<string>shp_3a525ea16182493094d261ba15e42bbc</string>
+				<key>updated_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+			</dict>
+			<dict>
+				<key>carrier</key>
+				<string>USPS</string>
+				<key>carrier_account_id</key>
+				<string>ca_c07c4df425324d96beaa4b85c86e362e</string>
+				<key>created_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+				<key>currency</key>
+				<string>USD</string>
+				<key>itemId</key>
+				<string>rate_ba92e6667f644b3393aa8b6fceab2b1c</string>
+				<key>list_currency</key>
+				<string>USD</string>
+				<key>list_rate</key>
+				<string>3.07</string>
+				<key>mode</key>
+				<string>test</string>
+				<key>rate</key>
+				<string>3.07</string>
+				<key>service</key>
+				<string>First</string>
+				<key>shipment_id</key>
+				<string>shp_3a525ea16182493094d261ba15e42bbc</string>
+				<key>updated_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+			</dict>
+			<dict>
+				<key>carrier</key>
+				<string>USPS</string>
+				<key>carrier_account_id</key>
+				<string>ca_c07c4df425324d96beaa4b85c86e362e</string>
+				<key>created_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+				<key>currency</key>
+				<string>USD</string>
+				<key>delivery_days</key>
+				<integer>1</integer>
+				<key>est_delivery_days</key>
+				<integer>1</integer>
+				<key>itemId</key>
+				<string>rate_7dd6db6bb6654ad6b83bc2ce594325e6</string>
+				<key>list_currency</key>
+				<string>USD</string>
+				<key>list_rate</key>
+				<string>15.13</string>
+				<key>mode</key>
+				<string>test</string>
+				<key>rate</key>
+				<string>15.13</string>
+				<key>service</key>
+				<string>Express</string>
+				<key>shipment_id</key>
+				<string>shp_3a525ea16182493094d261ba15e42bbc</string>
+				<key>updated_at</key>
+				<string>2015-11-13 07:34:20 +0000</string>
+			</dict>
+		</array>
+		<key>reference</key>
+		<string>ShipmentRef</string>
+		<key>return_address</key>
+		<dict>
+			<key>city</key>
+			<string>San Francisco</string>
+			<key>country</key>
+			<string>US</string>
+			<key>created_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>mode</key>
+			<string>test</string>
+			<key>name</key>
+			<string>Andrew Tribone</string>
+			<key>residential</key>
+			<integer>0</integer>
+			<key>state</key>
+			<string>CA</string>
+			<key>street1</key>
+			<string>480 Fell St</string>
+			<key>street2</key>
+			<string>#3</string>
+			<key>updated_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>zip</key>
+			<string>94102</string>
+		</dict>
+		<key>status</key>
+		<string>unknown</string>
+		<key>to_address</key>
+		<dict>
+			<key>city</key>
+			<string>San Francisco</string>
+			<key>company</key>
+			<string>Simpler Postage Inc</string>
+			<key>country</key>
+			<string>US</string>
+			<key>created_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>mode</key>
+			<string>test</string>
+			<key>residential</key>
+			<integer>0</integer>
+			<key>state</key>
+			<string>CA</string>
+			<key>street1</key>
+			<string>164 Townsend Street</string>
+			<key>street2</key>
+			<string>Unit 1</string>
+			<key>updated_at</key>
+			<string>2015-11-13 07:34:19 +0000</string>
+			<key>zip</key>
+			<string>94107</string>
+		</dict>
+		<key>updated_at</key>
+		<string>2015-11-13 07:34:19 +0000</string>
+		<key>usps_zone</key>
+		<string>1</string>
+	</dict>
+</dict>
+</plist>
