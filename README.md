@@ -15,6 +15,21 @@ to match your configuration.
 
 ## Usage
 
+Lib. includes asynchronous and synchronous access to the API. eg. to create EZPAddress:
+
+Asynchronous:
+```objectivec
++ (void)create:(NSDictionary *)parameters completion:(EZPRequestCompletion)completion;
+```
+
+Synchronous:
+```objectivec
++ (EZPAddress *)create:(NSDictionary *)parameters;
+```
+
+Synchronous is probably anti-pattern, but it's easier to use (to avoid long nesting of asynchronous callbacks). 
+Asynchronous and synchronous version can be combined.
+
 The project includes two sample applications:
 
 - EasyPoster (OS X)
