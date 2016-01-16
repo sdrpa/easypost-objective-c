@@ -33,7 +33,7 @@ Asynchronous and synchronous version can be combined.
 The project includes two sample applications:
 
 - EasyPoster (OS X)
-- EasyPosterMobile (OS X)
+- EasyPosterMobile (iOS)
 
 ## Credits
 
