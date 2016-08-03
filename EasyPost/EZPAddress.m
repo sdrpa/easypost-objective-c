@@ -89,4 +89,14 @@
                              }];
 }
 
+// Fix an error when trying to set the value of a BOOL to nil.
+-(void)setNilValueForKey:(NSString *)key{
+    if([key isEqualToString:@"residential"]){
+        self.residential = NO;
+    } else {
+        [super setNilValueForKey:key];
+    }
+}
+
+
 @end
